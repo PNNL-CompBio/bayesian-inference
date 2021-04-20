@@ -1,0 +1,2332 @@
+{
+"metabolites":[
+    {
+        "id":"Biomass_e",
+        "name":"Biomass",
+        "compartment":"e",
+        "charge":0,
+        "formula":"C7H1204N"
+    },
+    {
+"id":"cit_e",
+"name":"Citrate",
+"compartment":"e",
+"charge":-3,
+"formula":"C6H5O7"
+},
+
+{
+"id":"acon_T_c",
+"name":"Trans-Aconitate",
+"compartment":"c",
+"charge":-3,
+"formula":"C6H3O6"
+},
+{
+"id":"acon_T_e",
+"name":"Trans-Aconitate",
+"compartment":"e",
+"charge":-3,
+"formula":"C6H3O6"
+},
+    {
+"id":"acon_C_e",
+"name":"Cis-Aconitate",
+"compartment":"e",
+"charge":-3,
+"formula":"C6H3O6"
+},
+
+    {
+"id":"acon_C_m",
+"name":"Cis-Aconitate",
+"compartment":"m",
+"charge":-3,
+"formula":"C6H3O6"
+},
+{
+"id":"icit_m",
+"name":"Isocitrate",
+"compartment":"m",
+"charge":-3,
+"formula":"C6H5O7"
+},
+{
+"id":"fum_m",
+"name":"Fumarate",
+"compartment":"m",
+"charge":-2,
+"formula":"C4H2O4"
+},
+{
+"id":"succ_m",
+"name":"Succinate",
+"compartment":"m",
+"charge":-2,
+"formula":"C4H4O4"
+},
+{
+"id":"mal_L_e",
+"name":"L_Malate",
+"compartment":"e",
+"charge":-2,
+"formula":"C4H4O5"
+},
+{
+"id":"lpam_m",
+"name":"Lipoamide",
+"compartment":"m",
+"charge":0,
+"formula":"C8H15NOS2"
+},
+{
+"id":"dhlam_m",
+"name":"Dihydrolipoamide",
+"compartment":"m",
+"charge":0,
+"formula":"C8H17NOS2"
+},
+
+{
+"id":"sdhlam_m",
+"name":"S_Succinyldihydrolipoamide",
+"compartment":"m",
+"charge":-1,
+"formula":"C12H20NO4S2"
+},
+{
+"id":"akg_m",
+"name":"2_Oxoglutarate",
+"compartment":"m",
+"charge":-2,
+"formula":"C5H4O5"
+},
+    {
+"id":"nadph_m",
+"name":"Nicotinamide_adenine_dinucleotide_phosphate___reduced",
+"compartment":"m",
+"charge":-4,
+"formula":"C21H26N7O17P3"
+},
+{
+"id":"nadp_m",
+"name":"Nicotinamide_adenine_dinucleotide_phosphate",
+"compartment":"m",
+"charge":-3,
+"formula":"C21H25N7O17P3"
+},
+
+{
+"id":"succoa_m",
+"name":"Succinyl_CoA",
+"compartment":"m",
+"charge":-5,
+"formula":"C25H35N7O19P3S"
+},
+    {
+"id":"4pasp_c",
+"name":"4_Phospho_L_aspartate",
+"compartment":"c",
+"charge":-2,
+"formula":"C4H6NO7P"
+},
+{
+"id":"aspsa_c",
+"name":"L_Aspartate_4_semialdehyde",
+"compartment":"c",
+"charge":0,
+"formula":"C4H7NO3"
+},
+       {
+"id":"fadh2_m",
+"name":"Flavin_adenine_dinucleotide_reduced",
+"compartment":"m",
+"charge":-2,
+"formula":"C27H33N9O15P2"
+},
+{
+"id":"fad_m",
+"name":"Flavin_adenine_dinucleotide_oxidized",
+"compartment":"m",
+"charge":-2,
+"formula":"C27H31N9O15P2"
+},
+
+    {
+"id":"h_e",
+"name":"H",
+"compartment":"e",
+"charge":1,
+"formula":"H"
+},
+{
+"id":"h_c",
+"name":"H",
+"compartment":"c",
+"charge":1,
+"formula":"H"
+},
+{
+"id":"nadp_c",
+"name":"Nicotinamide_adenine_dinucleotide_phosphate",
+"compartment":"c",
+"charge":-3,
+"formula":"C21H25N7O17P3"
+},
+{
+"id":"nadph_c",
+"name":"Nicotinamide_adenine_dinucleotide_phosphate___reduced",
+"compartment":"c",
+"charge":-4,
+"formula":"C21H26N7O17P3"
+},
+{
+"id":"pi_c",
+"name":"Phosphate",
+"compartment":"c",
+"charge":-2,
+"formula":"HO4P"
+},
+{
+"id":"adp_c",
+"name":"ADP",
+"compartment":"c",
+"charge":-3,
+"formula":"C10H12N5O10P2"
+},
+{
+"id":"asp_L_c",
+"name":"L_Aspartate",
+"compartment":"c",
+"charge":-1,
+"formula":"C4H6NO4"
+},
+{
+"id":"atp_c",
+"name":"ATP",
+"compartment":"c",
+"charge":-4,
+"formula":"C10H12N5O13P3"
+},
+{
+"id":"hco3_c",
+"name":"Bicarbonate",
+"compartment":"c",
+"charge":-1,
+"formula":"CHO3"
+},
+{
+"id":"oaa_c",
+"name":"Oxaloacetate",
+"compartment":"c",
+"charge":-2,
+"formula":"C4H2O5"
+},
+    {
+"id":"pyr_e",
+"name":"Pyruvate",
+"compartment":"e",
+"charge":-1,
+"formula":"C3H3O3"
+},
+{
+"id":"pyr_c",
+"name":"Pyruvate",
+"compartment":"c",
+"charge":-1,
+"formula":"C3H3O3"
+},
+{
+"id":"ac_m",
+"name":"Acetate",
+"compartment":"m",
+"charge":-1,
+"formula":"C2H3O2"
+},
+{
+"id":"accoa_m",
+"name":"Acetyl_CoA",
+"compartment":"m",
+"charge":-4,
+"formula":"C23H34N7O17P3S"
+},
+{
+"id":"amp_m",
+"name":"AMP",
+"compartment":"m",
+"charge":-2,
+"formula":"C10H12N5O7P"
+},
+{
+"id":"atp_m",
+"name":"ATP",
+"compartment":"m",
+"charge":-4,
+"formula":"C10H12N5O13P3"
+},
+{
+"id":"coa_m",
+"name":"Coenzyme_A",
+"compartment":"m",
+"charge":-4,
+"formula":"C21H32N7O16P3S"
+},
+{
+"id":"ppi_m",
+"name":"Diphosphate",
+"compartment":"m",
+"charge":-3,
+"formula":"HO7P2"
+},
+{
+"id":"ac_c",
+"name":"Acetate",
+"compartment":"c",
+"charge":-1,
+"formula":"C2H3O2"
+},
+{
+"id":"adp_m",
+"name":"ADP",
+"compartment":"m",
+"charge":-3,
+"formula":"C10H12N5O10P2"
+},
+{
+"id":"acald_c",
+"name":"Acetaldehyde",
+"compartment":"c",
+"charge":0,
+"formula":"C2H4O"
+},
+{
+"id":"h2o_c",
+"name":"H2O",
+"compartment":"c",
+"charge":0,
+"formula":"H2O"
+},
+{
+"id":"nad_c",
+"name":"Nicotinamide_adenine_dinucleotide",
+"compartment":"c",
+"charge":-1,
+"formula":"C21H26N7O14P2"
+},
+{
+"id":"nadh_c",
+"name":"Nicotinamide_adenine_dinucleotide___reduced",
+"compartment":"c",
+"charge":-2,
+"formula":"C21H27N7O14P2"
+},
+{
+"id":"cit_m",
+"name":"Citrate",
+"compartment":"m",
+"charge":-3,
+"formula":"C6H5O7"
+},
+{
+"id":"h2o_m",
+"name":"H2O",
+"compartment":"m",
+"charge":0,
+"formula":"H2O"
+},
+{
+"id":"h_m",
+"name":"H",
+"compartment":"m",
+"charge":1,
+"formula":"H"
+},
+{
+"id":"oaa_m",
+"name":"Oxaloacetate",
+"compartment":"m",
+"charge":-2,
+"formula":"C4H2O5"
+},
+    {
+"id":"akg_e",
+"name":"2_Oxoglutarate",
+"compartment":"e",
+"charge":-2,
+"formula":"C5H4O5"
+},
+
+{
+"id":"akg_c",
+"name":"2_Oxoglutarate",
+"compartment":"c",
+"charge":-2,
+"formula":"C5H4O5"
+},
+{
+"id":"glu_L_c",
+"name":"L_Glutamate",
+"compartment":"c",
+"charge":-1,
+"formula":"C5H8NO4"
+},
+{
+"id":"h2o2_c",
+"name":"Hydrogen_peroxide",
+"compartment":"c",
+"charge":0,
+"formula":"H2O2"
+},
+{
+"id":"o2_c",
+"name":"O2",
+"compartment":"c",
+"charge":0,
+"formula":"O2"
+},
+{
+"id":"nh4_c",
+"name":"Ammonium",
+"compartment":"c",
+"charge":1,
+"formula":"H4N"
+},
+{
+"id":"gln_L_c",
+"name":"L_Glutamine",
+"compartment":"c",
+"charge":0,
+"formula":"C5H10N2O3"
+},
+{
+"id":"dhor_S_c",
+"name":"S__Dihydroorotate",
+"compartment":"c",
+"charge":-1,
+"formula":"C5H5N2O4"
+},
+{
+"id":"orot_c",
+"name":"Orotate",
+"compartment":"c",
+"charge":-1,
+"formula":"C5H3N2O4"
+},
+{
+"id":"2pg_c",
+"name":"D_Glycerate_2_phosphate",
+"compartment":"c",
+"charge":-3,
+"formula":"C3H4O7P"
+},
+{
+"id":"pep_c",
+"name":"Phosphoenolpyruvate",
+"compartment":"c",
+"charge":-3,
+"formula":"C3H2O6P"
+},
+{
+"id":"dhap_c",
+"name":"Dihydroxyacetone_phosphate",
+"compartment":"c",
+"charge":-2,
+"formula":"C3H5O6P"
+},
+{
+"id":"fdp_c",
+"name":"D_Fructose_1_6_bisphosphate",
+"compartment":"c",
+"charge":-4,
+"formula":"C6H10O12P2"
+},
+{
+"id":"g3p_c",
+"name":"Glyceraldehyde_3_phosphate",
+"compartment":"c",
+"charge":-2,
+"formula":"C3H5O6P"
+},
+{
+"id":"13dpg_c",
+"name":"3_Phospho_D_glyceroyl_phosphate",
+"compartment":"c",
+"charge":-4,
+"formula":"C3H4O10P2"
+},
+{
+"id":"co2_m",
+"name":"CO2",
+"compartment":"m",
+"charge":0,
+"formula":"CO2"
+},
+{
+"id":"nad_m",
+"name":"Nicotinamide_adenine_dinucleotide",
+"compartment":"m",
+"charge":-1,
+"formula":"C21H26N7O14P2"
+},
+{
+"id":"nadh_m",
+"name":"Nicotinamide_adenine_dinucleotide___reduced",
+"compartment":"m",
+"charge":-2,
+"formula":"C21H27N7O14P2"
+},
+{
+"id":"pyr_m",
+"name":"Pyruvate",
+"compartment":"m",
+"charge":-1,
+"formula":"C3H3O3"
+},
+{
+"id":"f6p_c",
+"name":"D_Fructose_6_phosphate",
+"compartment":"c",
+"charge":-2,
+"formula":"C6H11O9P"
+},
+{
+"id":"co2_e",
+"name":"CO2",
+"compartment":"e",
+"charge":0,
+"formula":"CO2"
+},
+{
+"id":"glc_D_e",
+"name":"D_Glucose",
+"compartment":"e",
+"charge":0,
+"formula":"C6H12O6"
+},
+{
+"id":"h2o_e",
+"name":"H2O",
+"compartment":"e",
+"charge":0,
+"formula":"H2O"
+},
+{
+"id":"o2_e",
+"name":"O2",
+"compartment":"e",
+"charge":0,
+"formula":"O2"
+},
+{
+"id":"g6p_c",
+"name":"D_Glucose_6_phosphate",
+"compartment":"c",
+"charge":-2,
+"formula":"C6H11O9P"
+},
+{
+"id":"3pg_c",
+"name":"3_Phospho_D_glycerate",
+"compartment":"c",
+"charge":-3,
+"formula":"C3H4O7P"
+},
+{
+"id":"dhap_m",
+"name":"Dihydroxyacetone_phosphate",
+"compartment":"m",
+"charge":-2,
+"formula":"C3H5O6P"
+},
+{
+"id":"glyc3p_m",
+"name":"Glycerol_3_phosphate",
+"compartment":"m",
+"charge":-2,
+"formula":"C3H7O6P"
+},
+{
+"id":"pi_m",
+"name":"Phosphate",
+"compartment":"m",
+"charge":-2,
+"formula":"HO4P"
+},
+{
+"id":"ficytc_m",
+"name":"Ferricytochrome_c",
+"compartment":"m",
+"charge":1,
+"formula":"C42H52FeN8O6S2"
+},
+{
+"id":"focytc_m",
+"name":"Ferrocytochrome_c",
+"compartment":"m",
+"charge":1,
+"formula":"C42H53FeN8O6S2"
+},
+{
+"id":"o2_m",
+"name":"O2",
+"compartment":"m",
+"charge":0,
+"formula":"O2"
+},
+{
+"id":"q6_m",
+"name":"Ubiquinone_6",
+"compartment":"m",
+"charge":0,
+"formula":"C39H58O4"
+},
+{
+"id":"q6h2_m",
+"name":"Ubiquinol_6",
+"compartment":"m",
+"charge":0,
+"formula":"C39H60O4"
+},
+{
+"id":"gly_c",
+"name":"Glycine",
+"compartment":"c",
+"charge":0,
+"formula":"C2H5NO2"
+},
+{
+"id":"mlthf_c",
+"name":"5_10_Methylenetetrahydrofolate",
+"compartment":"c",
+"charge":-2,
+"formula":"C20H21N7O6"
+},
+{
+"id":"ser_L_c",
+"name":"L_Serine",
+"compartment":"c",
+"charge":0,
+"formula":"C3H7NO3"
+},
+{
+"id":"thf_c",
+"name":"5_6_7_8_Tetrahydrofolate",
+"compartment":"c",
+"charge":-2,
+"formula":"C19H21N7O6"
+},
+{
+"id":"gly_m",
+"name":"Glycine",
+"compartment":"m",
+"charge":0,
+"formula":"C2H5NO2"
+},
+{
+"id":"mlthf_m",
+"name":"5_10_Methylenetetrahydrofolate",
+"compartment":"m",
+"charge":-2,
+"formula":"C20H21N7O6"
+},
+{
+"id":"ser_L_m",
+"name":"L_Serine",
+"compartment":"m",
+"charge":0,
+"formula":"C3H7NO3"
+},
+{
+"id":"thf_m",
+"name":"5_6_7_8_Tetrahydrofolate",
+"compartment":"m",
+"charge":-2,
+"formula":"C19H21N7O6"
+},
+{
+"id":"nh4_m",
+"name":"Ammonium",
+"compartment":"m",
+"charge":1,
+"formula":"H4N"
+},
+{
+"id":"co2_c",
+"name":"CO2",
+"compartment":"c",
+"charge":0,
+"formula":"CO2"
+},
+{
+"id":"glc_D_c",
+"name":"D_Glucose",
+"compartment":"c",
+"charge":0,
+"formula":"C6H12O6"
+},
+{
+"id":"hom_L_c",
+"name":"L_Homoserine",
+"compartment":"c",
+"charge":0,
+"formula":"C4H9NO3"
+},
+{
+"id":"phom_c",
+"name":"O_Phospho_L_homoserine",
+"compartment":"c",
+"charge":-2,
+"formula":"C4H8NO6P"
+},
+{
+"id":"mal_L_c",
+"name":"L_Malate",
+"compartment":"c",
+"charge":-2,
+"formula":"C4H4O5"
+},
+{
+"id":"mal_L_m",
+"name":"L_Malate",
+"compartment":"m",
+"charge":-2,
+"formula":"C4H4O5"
+},
+{
+"id":"cit_c",
+"name":"Citrate",
+"compartment":"c",
+"charge":-3,
+"formula":"C6H5O7"
+},
+{
+"id":"thr_L_c",
+"name":"L_Threonine",
+"compartment":"c",
+"charge":0,
+"formula":"C4H9NO3"
+},
+{
+"id":"acon_C_c",
+"name":"Cis-Aconitate",
+"compartment":"c",
+"charge":-3,
+"formula":"C6H3O6"
+},
+{
+"id":"itacon_c",
+"name":"Itaconate",
+"compartment":"c",
+"charge":-2,
+"formula":"C5H4O4"
+},
+{
+"id":"itacon_e",
+"name":"Itaconate",
+"compartment":"e",
+"charge":-2,
+"formula":"C5H4O4"
+}
+],
+    "reactions":[
+        {
+"id":"CITt2r",
+"name":"citrate reversible transport via symport",
+"metabolites":{
+"cit_c":-1.0,
+"cit_e":1.0,
+"h_c":-1.0,
+"h_e":1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":""
+},
+{
+    "id":"EX_cit_e",
+"name":"Citrate exchange",
+"metabolites":{
+"cit_e":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":""
+},
+
+        
+        {"id":"akg_to_Biomass",
+         "name":"Biomass equation",
+         "metabolites":{"akg_m": -1,
+                        "Biomass_e":1
+                       },
+         "lower_bound":-1000,
+         "upper_bound":1000,
+         "gene_reaction_rule":""
+        },
+        {"id":"EX_Biomass_e",
+         "name":"Biomass export",
+         "metabolites":{"Biomass_e": -1},
+         "lower_bound": 0,
+         "upper_bound":1000
+        },
+        {"id":"AKGtr",
+         "name": "akg export",
+         "metabolites":{"akg_m":-1,
+                        "akg_e":1},
+         "lower_bound": 0,
+         "upper_bound":1000
+        },
+{
+"id":"EX_h_e",
+"name":"H exchange",
+"metabolites":{
+"h_e":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":""
+},
+
+{
+"id":"ASADi",
+"name":"aspartate semialdehyde dehydrogenase irreversible",
+"metabolites":{
+"4pasp_c":-1.0,
+"aspsa_c":1.0,
+"h_c":-1.0,
+"nadp_c":1.0,
+"nadph_c":-1.0,
+"pi_c":1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"YALI0D13596g"
+},
+{
+"id":"ASPKi",
+"name":"aspartate kinase irreversible",
+"metabolites":{
+"4pasp_c":1.0,
+"adp_c":1.0,
+"asp_L_c":-1.0,
+"atp_c":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"YALI0D11704g"
+},
+{
+"id":"PC",
+"name":"pyruvate carboxylase",
+"metabolites":{
+"adp_c":1.0,
+"atp_c":-1.0,
+"h_c":1.0,
+"hco3_c":-1.0,
+"oaa_c":1.0,
+"pi_c":1.0,
+"pyr_c":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"YALI0C24101g"
+},
+{
+"id":"ACSm",
+"name":"acetyl CoA synthetase",
+"metabolites":{
+"ac_m":-1.0,
+"accoa_m":1.0,
+"amp_m":1.0,
+"atp_m":-1.0,
+"coa_m":-1.0,
+"ppi_m":1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"YALI0F05962p"
+},
+{
+"id":"ACtm",
+"name":"acetate transport mitochondrial",
+"metabolites":{
+"ac_c":-1.0,
+"ac_m":1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":""
+},
+{
+"id":"ADK1m",
+"name":"adenylate kinase mitochondrial",
+"metabolites":{
+"adp_m":2.0,
+"amp_m":-1.0,
+"atp_m":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"YALI0F26521g"
+},
+{
+"id":"ALDD2y",
+"name":"aldehyde dehydrogenase acetaldehyde NADP ",
+"metabolites":{
+"ac_c":1.0,
+"acald_c":-1.0,
+"h2o_c":-1.0,
+"h_c":2.0,
+"nad_c":-1.0,
+"nadh_c":1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"YALI0C03025g"
+},
+{
+"id":"CSm",
+"name":"citrate synthase",
+"metabolites":{
+"accoa_m":-1.0,
+"cit_m":1.0,
+"coa_m":1.0,
+"h2o_m":-1.0,
+"h_m":1.0,
+"oaa_m":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"YALI0E00638g or YALI0E02684g"
+},
+{
+"id":"ASPTA",
+"name":"aspartate transaminase",
+"metabolites":{
+"akg_c":1.0,
+"asp_L_c":1.0,
+"glu_L_c":-1.0,
+"oaa_c":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"YALI0F29337g"
+},
+{
+"id":"CAT",
+"name":"catalase",
+"metabolites":{
+"h2o2_c":-2.0,
+"h2o_c":2.0,
+"o2_c":1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"YALI0E34265g and YALI0E34749g and YALI0F30987g"
+},
+{
+"id":"GLUDy",
+"name":"glutamate dehydrogenase NADP ",
+"metabolites":{
+"akg_c":1.0,
+"glu_L_c":-1.0,
+"h2o_c":-1.0,
+"h_c":1.0,
+"nadp_c":-1.0,
+"nadph_c":1.0,
+"nh4_c":1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"YALI0F17820g"
+},
+{
+"id":"GLNS",
+"name":"glutamine synthetase",
+"metabolites":{
+"adp_c":1.0,
+"atp_c":-1.0,
+"gln_L_c":1.0,
+"glu_L_c":-1.0,
+"h_c":1.0,
+"nh4_c":-1.0,
+"pi_c":1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"YALI0D13024g and YALI0F00506g"
+},
+{
+"id":"DHORD",
+"name":"dihydoorotic acid dehydrogenase",
+"metabolites":{
+"dhor_S_c":-1.0,
+"h2o2_c":1.0,
+"o2_c":-1.0,
+"orot_c":1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":""
+},
+{
+"id":"ENO",
+"name":"enolase",
+"metabolites":{
+"2pg_c":-1.0,
+"h2o_c":1.0,
+"pep_c":1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"YALI0F16819g"
+},
+{
+"id":"FBA",
+"name":"fructose bisphosphate aldolase",
+"metabolites":{
+"dhap_c":1.0,
+"fdp_c":-1.0,
+"g3p_c":1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"YALI0E26004g"
+},
+{
+"id":"GAPD",
+"name":"glyceraldehyde 3 phosphate dehydrogenase",
+"metabolites":{
+"13dpg_c":1.0,
+"g3p_c":-1.0,
+"h_c":1.0,
+"nad_c":-1.0,
+"nadh_c":1.0,
+"pi_c":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"YALI0C06369g"
+},
+{
+"id":"PDHm",
+"name":"pyruvate dehydrogenase",
+"metabolites":{
+"accoa_m":1.0,
+"co2_m":1.0,
+"coa_m":-1.0,
+"nad_m":-1.0,
+"nadh_m":1.0,
+"pyr_m":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"YALI0E27005g and YALI0F20702g"
+},
+{
+"id":"PFK",
+"name":"phosphofructokinase",
+"metabolites":{
+"adp_c":1.0,
+"atp_c":-1.0,
+"f6p_c":-1.0,
+"fdp_c":1.0,
+"h_c":1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"YALI0D16357g"
+},
+    {
+"id":"EX_pyr_e",
+"name":"Pyruvate exchange",
+"metabolites":{
+"pyr_e":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":""
+},
+{
+"id":"EX_co2_e",
+"name":"CO2 exchange",
+"metabolites":{
+"co2_e":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":""
+},
+    {
+"id":"SUCD3_u6m",
+"name":"succinate dehydrogenase ubiquinone 6 mitochondrial",
+"metabolites":{
+"fad_m":1.0,
+"fadh2_m":-1.0,
+"q6_m":-1.0,
+"q6h2_m":1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"( YALI0A14784g and YALI0E29667g and YALI0D11374g and YALI0D23397g ) or ( YALI0E29667g and YALI0D11374g and YALI0D23397g )"
+},
+    {
+"id":"EX_glc_D_e",
+"name":"D Glucose exchange",
+"metabolites":{
+"glc_D_e":1.0
+},
+"lower_bound":-10.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"YALI0D01111g or YALI0D18876g or YALI0D00132g or YALI0B01342g or YALI0E23287g or YALI0B00396g or YALI0A01958g or YALI0A08998g"
+},
+ 
+{
+"id":"EX_h2o_e",
+"name":"H2O exchange",
+"metabolites":{
+"h2o_e":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":""
+},
+{
+"id":"EX_o2_e",
+"name":"O2 exchange",
+"metabolites":{
+"o2_e":1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":""
+},
+{
+"id":"PGI",
+"name":"glucose 6 phosphate isomerase",
+"metabolites":{
+"f6p_c":1.0,
+"g6p_c":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"YALI0F07711g"
+},
+{
+"id":"PGK",
+"name":"phosphoglycerate kinase",
+"metabolites":{
+"13dpg_c":-1.0,
+"3pg_c":1.0,
+"adp_c":-1.0,
+"atp_c":1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"YALI0D12400g"
+},
+{
+"id":"PGM",
+"name":"phosphoglycerate mutase",
+"metabolites":{
+"2pg_c":1.0,
+"3pg_c":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"YALI0B02728g or YALI0D09229g or YALI0D16445g"
+},
+{
+"id":"PYK",
+"name":"pyruvate kinase",
+"metabolites":{
+"adp_c":-1.0,
+"atp_c":1.0,
+"h_c":-1.0,
+"pep_c":-1.0,
+"pyr_c":1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"YALI0F09185g"
+},
+{
+"id":"TPI",
+"name":"triose phosphate isomerase",
+"metabolites":{
+"dhap_c":-1.0,
+"g3p_c":1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"YALI0F01584g and YALI0F05214g"
+},
+{
+"id":"G3PD1irm",
+"name":"glycerol 3 phosphate dehydrogenase NAD mitochondrial",
+"metabolites":{
+"dhap_m":-1.0,
+"glyc3p_m":1.0,
+"h_m":-1.0,
+"nad_m":1.0,
+"nadh_m":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"YALI0B02948g"
+},
+{
+"id":"G3PDm",
+"name":"glycerol 3 phosphate dehydrogenase FAD mitochondrial",
+"metabolites":{
+"dhap_m":1.0,
+"glyc3p_m":-1.0,
+"nad_m":-1.0,
+"nadh_m":1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"YALI0B13970g"
+},
+{
+"id":"ATPS3m",
+"name":"ATP synthase mitochondrial",
+"metabolites":{
+"adp_m":-1.0,
+"atp_m":1.0,
+"h2o_m":1.0,
+"h_c":-3.0,
+"h_m":2.0,
+"pi_m":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"YALI0A09900p and YALI0A11143p and YALI0B03982p and YALI0B06831p and YALI0B11913p and YALI0B21527p and YALI0D00583p"
+},
+{
+"id":"CYOOm",
+"name":"cytochrome c oxidase mitochondrial",
+"metabolites":{
+"ficytc_m":4.0,
+"focytc_m":-4.0,
+"h2o_m":2.0,
+"h_c":6.0,
+"h_m":-6.0,
+"o2_m":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"YALI0E10144g and YALI0E12628g and YALI0E16709g and YALI0E19723g and YALI0F03201g and YALI0F03567g and YALI0F04103g and YALI0F04"
+},
+{
+"id":"CYOR_u6m",
+"name":"ubiquinol 6 cytochrome c reductase",
+"metabolites":{
+"ficytc_m":-2.0,
+"focytc_m":2.0,
+"h_c":1.5,
+"h_m":-1.5,
+"q6_m":1.0,
+"q6h2_m":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"YALI0A02915g and YALI0A17468g and YALI0B01540g and YALI0C12210g and YALI0E34037g and YALI0F01771g and YALI0F08613g and YALI0F24"
+},
+{
+"id":"GHMT2r",
+"name":"glycine hydroxymethyltransferase reversible",
+"metabolites":{
+"gly_c":-1.0,
+"h2o_c":-1.0,
+"mlthf_c":-1.0,
+"ser_L_c":1.0,
+"thf_c":1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"YALI0D22484g and YALI0E16346g"
+},
+{
+"id":"GHMT2rm",
+"name":"glycine hydroxymethyltransferase reversible mitochondrial",
+"metabolites":{
+"gly_m":1.0,
+"h2o_m":1.0,
+"mlthf_m":1.0,
+"ser_L_m":-1.0,
+"thf_m":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"YALI0D22484g and YALI0E16346g"
+},
+{
+"id":"NADH2_u6cm",
+"name":"NADH dehydrogenase cytosolicmitochondrial",
+"metabolites":{
+"h_c":-1.0,
+"nad_c":1.0,
+"nadh_c":-1.0,
+"q6_m":-1.0,
+"q6h2_m":1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"YALI0B00792g or YALI0B20372g or YALI0D00737g or YALI0D05467g or YALI0E05599g or YALI0F00924g or YALI0F02123g"
+},
+{
+"id":"GLUSx",
+"name":"glutamate synthase NADH2 ",
+"metabolites":{
+"akg_c":-1.0,
+"gln_L_c":-1.0,
+"glu_L_c":2.0,
+"h_c":-1.0,
+"nad_c":1.0,
+"nadh_c":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"YALI0B19998g"
+},
+{
+"id":"GLYCLm",
+"name":"glycine cleavage system mitochondrial",
+"metabolites":{
+"co2_m":1.0,
+"gly_m":-1.0,
+"mlthf_m":1.0,
+"nad_m":-1.0,
+"nadh_m":1.0,
+"nh4_m":1.0,
+"thf_m":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"YALI0F02849g"
+},
+{
+"id":"H2Otm",
+"name":"H2O transport mitochondrial",
+"metabolites":{
+"h2o_c":-1.0,
+"h2o_m":1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":""
+},
+{
+"id":"HCO3E",
+"name":"HCO3 equilibration reaction",
+"metabolites":{
+"co2_c":-1.0,
+"h2o_c":-1.0,
+"h_c":1.0,
+"hco3_c":1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":""
+},
+{
+"id":"HEX1",
+"name":"hexokinase D glucoseATP ",
+"metabolites":{
+"adp_c":1.0,
+"atp_c":-1.0,
+"g6p_c":1.0,
+"glc_D_c":-1.0,
+"h_c":1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"YALI0B22308g or YALI0E15488g or YALI0E20207g"
+},
+{
+"id":"HSDxi",
+"name":"homoserine dehydrogenase NADH irreversible",
+"metabolites":{
+"aspsa_c":-1.0,
+"h_c":-1.0,
+"hom_L_c":1.0,
+"nad_c":1.0,
+"nadh_c":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"YALI0D01089g"
+},
+{
+"id":"HSK",
+"name":"homoserine kinase",
+"metabolites":{
+"adp_c":1.0,
+"atp_c":-1.0,
+"h_c":1.0,
+"hom_L_c":-1.0,
+"phom_c":1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"YALI0F13453g"
+},
+{
+"id":"DHORD4",
+"name":"dihydoorotic acid ubiquinone 6 ",
+"metabolites":{
+"dhor_S_c":1.0,
+"orot_c":-1.0,
+"q6_m":1.0,
+"q6h2_m":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":""
+},
+{
+"id":"MALtm",
+"name":"malate transport mitochondrial",
+"metabolites":{
+"mal_L_c":1.0,
+"mal_L_m":-1.0,
+"pi_c":-1.0,
+"pi_m":1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"YALI0B03344g"
+},
+{
+"id":"MLTHFtm",
+"name":"5 10 Methylenetetrahydrofolate transport diffusion mitochondrial",
+"metabolites":{
+"mlthf_c":1.0,
+"mlthf_m":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":""
+},
+{
+"id":"NADH2_u6m",
+"name":"NADH dehydrogenase mitochondrial",
+"metabolites":{
+"h_m":-1.0,
+"nad_m":1.0,
+"nadh_m":-1.0,
+"q6_m":-1.0,
+"q6h2_m":1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"YALI0B00792g or YALI0B20372g or YALI0D00737g or YALI0D05467g or YALI0E05599g or YALI0F00924g or YALI0F02123g"
+},
+{
+"id":"MDH",
+"name":"malate dehydrogenase",
+"metabolites":{
+"h_c":-1.0,
+"mal_L_c":1.0,
+"nad_c":1.0,
+"nadh_c":-1.0,
+"oaa_c":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"YALI0D16753g and YALI0E14190g"
+},
+{
+"id":"MDHm",
+"name":"malate dehydrogenase mitochondrial",
+"metabolites":{
+"h_m":1.0,
+"mal_L_m":-1.0,
+"nad_m":-1.0,
+"nadh_m":1.0,
+"oaa_m":1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"YALI0D16753g"
+},
+{
+"id":"OAAt2m",
+"name":"oxaloacetate transport mitochondrial",
+"metabolites":{
+"h_c":-1.0,
+"h_m":1.0,
+"oaa_c":-1.0,
+"oaa_m":1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"YALI0E04048g"
+},
+{
+"id":"CO2t",
+"name":"CO2 transporter via diffusion",
+"metabolites":{
+"co2_c":-1.0,
+"co2_e":1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":""
+},
+{
+"id":"GLCt1",
+"name":"glucose transport uniport ",
+"metabolites":{
+"glc_D_c":1.0,
+"glc_D_e":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"YALI0D00132g or YALI0D01111g or YALI0D18876g or YALI0B01342g or YALI0E23287g or YALI0B00396g or YALI0A01958g or YALI0A08998g"
+},
+{
+"id":"H2Ot",
+"name":"H2O transport via diffusion",
+"metabolites":{
+"h2o_c":-1.0,
+"h2o_e":1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":""
+},
+{
+"id":"O2t",
+"name":"o2 transport diffusion ",
+"metabolites":{
+"o2_c":1.0,
+"o2_e":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":""
+},
+{
+"id":"PIt2m",
+"name":"phosphate transporter mitochondrial",
+"metabolites":{
+"h_c":-1.0,
+"h_m":1.0,
+"pi_c":-1.0,
+"pi_m":1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"YALI0C05753g"
+},
+{
+"id":"ATPtm_H",
+"name":"ADPATP transporter mitochondrial",
+"metabolites":{
+"adp_c":-1.0,
+"adp_m":1.0,
+"atp_c":1.0,
+"atp_m":-1.0,
+"h_c":-1.0,
+"h_m":1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"YALI0A10659g or YALI0F19712g"
+},
+    {
+"id":"PPCK",
+"name":"phosphoenolpyruvate carboxykinase",
+"metabolites":{
+"adp_c":1.0,
+"atp_c":-1.0,
+"co2_c":1.0,
+"oaa_c":-1.0,
+"pep_c":1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"YALI0C16995g"
+    },
+{
+"id":"PPAm",
+"name":"inorganic diphosphatase",
+"metabolites":{
+"h2o_m":-1.0,
+"h_m":1.0,
+"pi_m":2.0,
+"ppi_m":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"YALI0C11803g or YALI0F13541g"
+},
+{
+"id":"CITtam",
+"name":"citrate transport mitochondrial",
+"metabolites":{
+"cit_c":1.0,
+"cit_m":-1.0,
+"mal_L_c":-1.0,
+"mal_L_m":1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"YALI0F26323g"
+},
+{
+"id":"CO2tm",
+"name":"CO2 transport diffusion mitochondrial",
+"metabolites":{
+"co2_c":1.0,
+"co2_m":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":""
+},
+{
+"id":"NH4tm",
+"name":"NH3 mitochondrial transport",
+"metabolites":{
+"nh4_c":1.0,
+"nh4_m":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":""
+},
+{
+"id":"O2tm",
+"name":"O2 transport diffusion ",
+"metabolites":{
+"o2_c":-1.0,
+"o2_m":1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":""
+},
+{
+"id":"PYRt2m",
+"name":"pyruvate mitochondrial transport via proton symport",
+"metabolites":{
+"h_c":-1.0,
+"h_m":1.0,
+"pyr_c":-1.0,
+"pyr_m":1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":""
+},
+{
+"id":"SERD_L",
+"name":"L serine deaminase",
+"metabolites":{
+"nh4_c":1.0,
+"pyr_c":1.0,
+"ser_L_c":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"YALI0E10307g"
+},
+{
+"id":"SERt2m",
+"name":"serine mitochondrial transport via proton symport",
+"metabolites":{
+"h_c":-1.0,
+"h_m":1.0,
+"ser_L_c":-1.0,
+"ser_L_m":1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":""
+},
+{
+"id":"THFtm",
+"name":"Tetrahydrofolate transport diffusion mitochondrial",
+"metabolites":{
+"thf_c":-1.0,
+"thf_m":1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":""
+},
+{
+"id":"THRA",
+"name":"Threonine aldolase",
+"metabolites":{
+"acald_c":1.0,
+"gly_c":1.0,
+"thr_L_c":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"YALI0A21417g"
+},
+{
+"id":"THRS",
+"name":"threonine synthase",
+"metabolites":{
+"h2o_c":-1.0,
+"phom_c":-1.0,
+"pi_c":1.0,
+"thr_L_c":1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"YALI0F23221g"
+},
+        {
+            "id":"ACONCtr",
+            "name":"Cis aconitate transport",
+            "metabolites":{"acon_C_c":-1,
+                           "acon_C_e":1},
+            "lower_bound":0,
+            "upper_bound":1000,
+            "gene_reaction_rule":""
+        },
+                {
+            "id":"EX_acon_C_e",
+            "name":"Cis aconitate export",
+            "metabolites":{"acon_C_e":-1},
+            "lower_bound":0,
+            "upper_bound":1000,
+            "gene_reaction_rule":""
+                },
+        {
+            "id":"ACONisom",
+            "name":"Aconitate isomerase",
+            "metabolites":{"acon_C_c":-1,
+                           "acon_T_c":1},
+            "lower_bound":-1000,
+            "upper_bound":1000,
+            "gene_reaction_rule":"ADI1"
+                },
+            
+        {
+            "id":"ACONttr",
+            "name":"Trans-Aconitate transport",
+            "metabolites":{"acon_T_c":-1,
+                           "acon_T_e":1},
+            "lower_bound":-1000,
+            "upper_bound":1000,
+            "gene_reaction_rule":"ADI1"
+        },
+        {
+            "id":"EX_acon_T_e",
+            "name":"Trans-Aconitate export",
+            "metabolites":{"acon_T_e":-1},
+            "lower_bound":0,
+            "upper_bound":1000,
+            "gene_reaction_rule":"ADI1"
+        },
+        
+        
+{
+"id":"ACONTa",
+"name":"Aconitase (half-reaction A, Citrate hydro-lase)",
+"metabolites":{
+"acon_C_c":1,
+"cit_c":-1.0,
+"h2o_c":1
+},
+"lower_bound":-100,
+"upper_bound":100,
+"gene_reaction_rule":"YALI0D09361g",
+"subsystem":"Citric Acid Cycle"
+},
+            {
+            "gene_reaction_rule": "YALI0D09361g or YALI0E14949g",
+            "id": "ACONTam",
+            "lower_bound": -100,
+            "metabolites": {
+                "acon_C_m": 1,
+                "cit_m": -1.0,
+                "h2o_m": 1
+            },
+            "name": "Mitochondrial Aconitase (half-reaction A, Citrate hydro-lase)",
+            "notes": {
+                "map_info": {
+                    "flux": 0.0,
+                    "reversibility": true
+                }
+            },
+            "subsystem": "Mitochondrial Citric Acid Cycle",
+            "upper_bound": 100
+        },
+        {
+            "gene_reaction_rule": "YALI0D09361g or YALI0E14949g",
+            "id": "ACONTbm",
+            "lower_bound": -100,
+            "metabolites": {
+                "acon_C_m": -1.0,
+                "h2o_m": -1,
+                "icit_m": 1
+            },
+            "name": "Mitochondrial Aconitase (half-reaction B, Isocitrate hydro-lase)",
+            "notes": {
+                "map_info": {
+                    "flux": 0.0,
+                    "reversibility": true
+                }
+            },
+            "subsystem": "Mitochondrial Citric Acid Cycle",
+            "upper_bound": 100
+        },
+            {
+            "gene_reaction_rule": "MttA",
+            "id": "MTT",
+            "lower_bound": -100,
+            "metabolites": {
+                "acon_C_c": 1,
+                "acon_C_m": -1,
+                "mal_L_c": -1,
+                "mal_L_m": 1
+            },
+            "name": "Cis-aconitate malate antiport, mitochondrial",
+            "notes": {
+                "map_info": {
+                    "flux": 0.0,
+                    "reversibility": true
+                }
+            },
+            "subsystem": "Engineered Itaconate Biosynthesis",
+            "upper_bound": 100
+            },
+    {
+"id":"FUMm",
+"name":"fumarase mitochondrial",
+"metabolites":{
+"fum_m":-1.0,
+"h2o_m":-1.0,
+"mal_L_m":1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"YALI0C06776g"
+},
+{
+"id":"SUCD1m",
+"name":"succinate dehydrogenase",
+"metabolites":{
+"fad_m":-1.0,
+"fadh2_m":1.0,
+"fum_m":1.0,
+"succ_m":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"( YALI0A14784g and YALI0E29667g and YALI0D11374g and YALI0D23397g ) or ( YALI0E29667g and YALI0D11374g and YALI0D23397g )"
+},
+    {
+"id":"ICDHxm",
+"name":"Isocitrate dehydrogenase NAD ",
+"metabolites":{
+"akg_m":1.0,
+"co2_m":1.0,
+"icit_m":-1.0,
+"nad_m":-1.0,
+"nadh_m":1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"YALI0E05137g and YALI0D06303g"
+},
+        {
+"id":"PYRt2",
+"name":"pyruvate transport in via proton symport",
+"metabolites":{
+"h_c":-1.0,
+"h_e":1.0,
+"pyr_c":-1.0,
+"pyr_e":1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"YALI0D24607g"
+},
+{
+"id":"SUCOASm",
+"name":"Succinate CoA ligase ADP forming ",
+"metabolites":{
+"adp_m":1.0,
+"atp_m":-1.0,
+"coa_m":-1.0,
+"pi_m":1.0,
+"succ_m":-1.0,
+"succoa_m":1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"YALI0D04741g and YALI0E24013g"
+},
+    {
+"id":"AKGMAL",
+"name":"alpha ketoglutaratemalate transporter",
+"metabolites":{
+"akg_c":1.0,
+"akg_e":-1.0,
+"mal_L_c":-1.0,
+"mal_L_e":1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":""
+},
+{
+"id":"EX_akg_e",
+"name":"2 Oxoglutarate exchange",
+"metabolites":{
+"akg_e":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":""
+},
+
+{
+"id":"AKGDam",
+"name":"oxoglutarate dehydrogenase lipoamide ",
+"metabolites":{
+"akg_m":-1.0,
+"co2_m":1.0,
+"h_m":-1.0,
+"lpam_m":-1.0,
+"sdhlam_m":1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"YALI0E33517g and YALI0E16929g"
+},
+{
+"id":"AKGDbm",
+"name":"oxoglutarate dehydrogenase dihydrolipoamide S succinyltransferase ",
+"metabolites":{
+"coa_m":-1.0,
+"dhlam_m":1.0,
+"sdhlam_m":-1.0,
+"succoa_m":1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"YALI0E33517g and YALI0E16929g and YALI0D20768g"
+},
+{
+"id":"ITACON",
+"name":"Aconitate Decarboxylase",
+"metabolites":{
+"acon_C_c":-1,
+"co2_c":1,
+"h_c":-1,
+"itacon_c":1
+},
+"lower_bound":-100,
+"upper_bound":100,
+"gene_reaction_rule":"CAD1",
+"subsystem":"Engineered Itaconate Biosynthesis"
+},
+{
+"id":"ITACONtr",
+"name":"Itaconate transport",
+"metabolites":{
+"itacon_c":-1,
+"itacon_e":1
+},
+"lower_bound":-100,
+"upper_bound":100,
+"gene_reaction_rule":"",
+"subsystem":"Engineered Itaconate Biosynthesis"
+},
+{
+"id":"EX_itacon_e",
+"name":"Itaconate exchange",
+"metabolites":{
+"itacon_e":-1
+},
+"lower_bound":0,
+"upper_bound":100,
+"gene_reaction_rule":"",
+"subsystem":"Engineered Itaconate Biosynthesis"
+}
+],
+"genes":[
+{
+"id":"YALI0D13596g",
+"name":"YALI0D13596g"
+},
+{
+"id":"YALI0D11704g",
+"name":"YALI0D11704g"
+},
+{
+"id":"YALI0C24101g",
+"name":"YALI0C24101g"
+},
+{
+"id":"YALI0F05962p",
+"name":"YALI0F05962p"
+},
+{
+"id":"YALI0F26521g",
+"name":"YALI0F26521g"
+},
+{
+"id":"YALI0C03025g",
+"name":"YALI0C03025g"
+},
+{
+"id":"YALI0E00638g",
+"name":"YALI0E00638g"
+},
+{
+"id":"YALI0E02684g",
+"name":"YALI0E02684g"
+},
+{
+"id":"YALI0F29337g",
+"name":"YALI0F29337g"
+},
+{
+"id":"YALI0F30987g",
+"name":"YALI0F30987g"
+},
+{
+"id":"YALI0E34749g",
+"name":"YALI0E34749g"
+},
+{
+"id":"YALI0E34265g",
+"name":"YALI0E34265g"
+},
+{
+"id":"YALI0F17820g",
+"name":"YALI0F17820g"
+},
+{
+"id":"YALI0F00506g",
+"name":"YALI0F00506g"
+},
+{
+"id":"YALI0D13024g",
+"name":"YALI0D13024g"
+},
+{
+"id":"YALI0F16819g",
+"name":"YALI0F16819g"
+},
+{
+"id":"YALI0E26004g",
+"name":"YALI0E26004g"
+},
+{
+"id":"YALI0C06369g",
+"name":"YALI0C06369g"
+},
+{
+"id":"YALI0F20702g",
+"name":"YALI0F20702g"
+},
+{
+"id":"YALI0E27005g",
+"name":"YALI0E27005g"
+},
+{
+"id":"YALI0D16357g",
+"name":"YALI0D16357g"
+},
+{
+"id":"YALI0B01342g",
+"name":"YALI0B01342g"
+},
+{
+"id":"YALI0A08998g",
+"name":"YALI0A08998g"
+},
+{
+"id":"YALI0E23287g",
+"name":"YALI0E23287g"
+},
+{
+"id":"YALI0D00132g",
+"name":"YALI0D00132g"
+},
+{
+"id":"YALI0D18876g",
+"name":"YALI0D18876g"
+},
+{
+"id":"YALI0A01958g",
+"name":"YALI0A01958g"
+},
+{
+"id":"YALI0B00396g",
+"name":"YALI0B00396g"
+},
+{
+"id":"YALI0D01111g",
+"name":"YALI0D01111g"
+},
+{
+"id":"YALI0F07711g",
+"name":"YALI0F07711g"
+},
+{
+"id":"YALI0D12400g",
+"name":"YALI0D12400g"
+},
+{
+"id":"YALI0B02728g",
+"name":"YALI0B02728g"
+},
+{
+"id":"YALI0D16445g",
+"name":"YALI0D16445g"
+},
+{
+"id":"YALI0D09229g",
+"name":"YALI0D09229g"
+},
+{
+"id":"YALI0F09185g",
+"name":"YALI0F09185g"
+},
+{
+"id":"YALI0F05214g",
+"name":"YALI0F05214g"
+},
+{
+"id":"YALI0F01584g",
+"name":"YALI0F01584g"
+},
+{
+"id":"YALI0B02948g",
+"name":"YALI0B02948g"
+},
+{
+"id":"YALI0B13970g",
+"name":"YALI0B13970g"
+},
+{
+"id":"YALI0D00583p",
+"name":"YALI0D00583p"
+},
+{
+"id":"YALI0B21527p",
+"name":"YALI0B21527p"
+},
+{
+"id":"YALI0B03982p",
+"name":"YALI0B03982p"
+},
+{
+"id":"YALI0B11913p",
+"name":"YALI0B11913p"
+},
+{
+"id":"YALI0B06831p",
+"name":"YALI0B06831p"
+},
+{
+"id":"YALI0A11143p",
+"name":"YALI0A11143p"
+},
+{
+"id":"YALI0A09900p",
+"name":"YALI0A09900p"
+},
+{
+"id":"YALI0F03567g",
+"name":"YALI0F03567g"
+},
+{
+"id":"YALI0F04103g",
+"name":"YALI0F04103g"
+},
+{
+"id":"YALI0E16709g",
+"name":"YALI0E16709g"
+},
+{
+"id":"YALI0E10144g",
+"name":"YALI0E10144g"
+},
+{
+"id":"YALI0E12628g",
+"name":"YALI0E12628g"
+},
+{
+"id":"YALI0F03201g",
+"name":"YALI0F03201g"
+},
+{
+"id":"YALI0E19723g",
+"name":"YALI0E19723g"
+},
+{
+"id":"YALI0F04",
+"name":"YALI0F04"
+},
+{
+"id":"YALI0A02915g",
+"name":"YALI0A02915g"
+},
+{
+"id":"YALI0E34037g",
+"name":"YALI0E34037g"
+},
+{
+"id":"YALI0A17468g",
+"name":"YALI0A17468g"
+},
+{
+"id":"YALI0C12210g",
+"name":"YALI0C12210g"
+},
+{
+"id":"YALI0F24",
+"name":"YALI0F24"
+},
+{
+"id":"YALI0F08613g",
+"name":"YALI0F08613g"
+},
+{
+"id":"YALI0F01771g",
+"name":"YALI0F01771g"
+},
+{
+"id":"YALI0B01540g",
+"name":"YALI0B01540g"
+},
+{
+"id":"YALI0D22484g",
+"name":"YALI0D22484g"
+},
+{
+"id":"YALI0E16346g",
+"name":"YALI0E16346g"
+},
+{
+"id":"YALI0D05467g",
+"name":"YALI0D05467g"
+},
+{
+"id":"YALI0E05599g",
+"name":"YALI0E05599g"
+},
+{
+"id":"YALI0B00792g",
+"name":"YALI0B00792g"
+},
+{
+"id":"YALI0B20372g",
+"name":"YALI0B20372g"
+},
+{
+"id":"YALI0F02123g",
+"name":"YALI0F02123g"
+},
+{
+"id":"YALI0F00924g",
+"name":"YALI0F00924g"
+},
+{
+"id":"YALI0D00737g",
+"name":"YALI0D00737g"
+},
+{
+"id":"YALI0B19998g",
+"name":"YALI0B19998g"
+},
+{
+"id":"YALI0F02849g",
+"name":"YALI0F02849g"
+},
+{
+"id":"YALI0E15488g",
+"name":"YALI0E15488g"
+},
+{
+"id":"YALI0B22308g",
+"name":"YALI0B22308g"
+},
+{
+"id":"YALI0E20207g",
+"name":"YALI0E20207g"
+},
+{
+"id":"YALI0D01089g",
+"name":"YALI0D01089g"
+},
+{
+"id":"YALI0F13453g",
+"name":"YALI0F13453g"
+},
+{
+"id":"YALI0B03344g",
+"name":"YALI0B03344g"
+},
+{
+"id":"YALI0E04048g",
+"name":"YALI0E04048g"
+},
+{
+"id":"YALI0C05753g",
+"name":"YALI0C05753g"
+},
+{
+"id":"YALI0A10659g",
+"name":"YALI0A10659g"
+},
+{
+"id":"YALI0F19712g",
+"name":"YALI0F19712g"
+},
+{
+"id":"YALI0C11803g",
+"name":"YALI0C11803g"
+},
+{
+"id":"YALI0F13541g",
+"name":"YALI0F13541g"
+},
+{
+"id":"YALI0F26323g",
+"name":"YALI0F26323g"
+},
+{
+"id":"YALI0E10307g",
+"name":"YALI0E10307g"
+},
+{
+"id":"YALI0A21417g",
+"name":"YALI0A21417g"
+},
+{
+"id":"YALI0F23221g",
+"name":"YALI0F23221g"
+},
+{
+"id":"YALI0D09361g",
+"name":"YALI0D09361g"
+},
+{
+"id":"CAD1",
+"name":""
+}
+],
+"id":null,
+"compartments":{
+"c":"",
+"e":"",
+"m":""
+},
+"version":"1"
+}

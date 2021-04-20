@@ -1,0 +1,390 @@
+{
+    "compartments": {
+        "c": "",
+        "e": "",
+        "m": ""
+    },
+    "genes": [
+        {
+            "id": "YALI0D09361g",
+            "name": ""
+        },
+        {
+            "id": "YALI0E14949g",
+            "name": ""
+        },
+        {
+            "id": "MttA",
+            "name": ""
+        },
+        {
+            "id": "CAD1",
+            "name": ""
+        },
+        {
+            "id": "MFS",
+            "name": ""
+        }
+    ],
+    "id": "itaconate_pwy",
+    "metabolites": [
+        {
+            "charge": -3,
+            "compartment": "c",
+            "formula": "C6H5O7",
+            "id": "cit_c",
+            "name": "Citrate"
+        },
+        {
+            "charge": -3,
+            "compartment": "e",
+            "formula": "C6H5O7",
+            "id": "cit_e",
+            "name": "Citrate"
+        },
+        {
+            "charge": -3,
+            "compartment": "c",
+            "formula": "C6H3O6",
+            "id": "acon_C_c",
+            "name": "Cis-Aconitate[c]"
+        },
+        {
+            "charge": 0,
+            "compartment": "c",
+            "formula": "H2O",
+            "id": "h2o_c",
+            "name": "H2O"
+        },
+        {
+            "charge": 0,
+            "compartment": "e",
+            "formula": "H2O",
+            "id": "h2o_e",
+            "name": "H2O"
+        },
+        {
+            "charge": -3,
+            "compartment": "e",
+            "formula": "C6H5O7",
+            "id": "icit_e",
+            "name": "Isocitrate"
+        },        {
+            "charge": -3,
+            "compartment": "c",
+            "formula": "C6H5O7",
+            "id": "icit_c",
+            "name": "Isocitrate"
+        },
+        {
+            "charge": -3,
+            "compartment": "m",
+            "formula": "C6H5O7",
+            "id": "cit_m",
+            "name": "Citrate"
+        },
+        {
+            "charge": 0,
+            "compartment": "e",
+            "formula": "C6H12O6",
+            "id": "glc_D_e",
+            "name": "Glucose"
+        },
+        {
+            "charge": -3,
+            "compartment": "m",
+            "formula": "C6H3O6",
+            "id": "acon_C_m",
+            "name": "Cis-Aconitate[m]"
+        },
+        {
+            "charge": 0,
+            "compartment": "m",
+            "formula": "H2O",
+            "id": "h2o_m",
+            "name": "H2O"
+        },
+       {
+            "charge": 0,
+            "compartment": "e",
+            "formula": "Biomass",
+            "id": "Biomass_e",
+            "name": "Biomass"
+        },
+        {
+            "charge": -3,
+            "compartment": "m",
+            "formula": "C6H5O7",
+            "id": "icit_m",
+            "name": "Isocitrate"
+        },
+        {
+            "charge": -2,
+            "compartment": "c",
+            "formula": "C4H4O5",
+            "id": "mal_L_c",
+            "name": "L_Malate"
+        },
+                {
+            "charge": -2,
+            "compartment": "e",
+            "formula": "C4H4O5",
+            "id": "mal_L_e",
+            "name": "L_Malate"
+        },
+        {
+            "charge": -2,
+            "compartment": "m",
+            "formula": "C4H4O5",
+            "id": "mal_L_m",
+            "name": "L_Malate"
+        },
+        {
+            "charge": 1,
+            "compartment": "e",
+            "formula": "H",
+            "id": "h_e",
+            "name": "H"
+        },        {
+            "charge": 1,
+            "compartment": "c",
+            "formula": "H",
+            "id": "h_c",
+            "name": "H"
+        },
+        {
+            "charge": 0,
+            "compartment": "c",
+            "formula": "CO2",
+            "id": "co2_c",
+            "name": "CO2"
+        },
+        {
+            "charge": 0,
+            "compartment": "e",
+            "formula": "CO2",
+            "id": "co2_e",
+            "name": "CO2"
+        },
+        {
+            "charge": -2,
+            "compartment": "c",
+            "formula": "C5H4O4",
+            "id": "itacon_c",
+            "name": "Itaconate[c]"
+        },
+        {
+            "charge": -2,
+            "compartment": "e",
+            "formula": "C5H4O4",
+            "id": "itacon_e",
+            "name": "Itaconate[e]"
+        }
+    ],
+    "reactions": [
+        {
+            "gene_reaction_rule": "YALI0D09361g",
+            "id": "ACONTa",
+            "lower_bound": -100,
+            "metabolites": {
+                "acon_C_c": -1,
+                "cit_c": 1.0,
+                "h2o_c": 1
+            },
+            "name": "Aconitase (half-reaction A, Citrate hydro-lase)",
+            "subsystem": "Citric Acid Cycle",
+            "upper_bound": 100
+        },
+        {
+            "gene_reaction_rule": "YALI0D09361g",
+            "id": "ACONTb",
+            "lower_bound": -100,
+            "metabolites": {
+                "acon_C_c": -1.0,
+                "h2o_c": -1,
+                "icit_c": 1
+            },
+            "name": "Aconitase (half-reaction B, Isocitrate hydro-lase)",
+            "subsystem": "Citric Acid Cycle",
+            "upper_bound": 100
+        },
+        {
+            "gene_reaction_rule": "YALI0D09361g or YALI0E14949g",
+            "id": "ACONTam",
+            "lower_bound": -100,
+            "metabolites": {
+                "acon_C_m": 1,
+                "cit_m": -1.0,
+                "h2o_m": 1
+            },
+            "name": "Mitochondrial Aconitase (half-reaction A, Citrate hydro-lase)",
+            "subsystem": "Mitochondrial Citric Acid Cycle",
+            "upper_bound": 100
+        },
+        {
+            "gene_reaction_rule": "YALI0D09361g or YALI0E14949g",
+            "id": "ACONTbm",
+            "lower_bound": -100,
+            "metabolites": {
+                "acon_C_m": -1.0,
+                "h2o_m": -1,
+                "icit_m": 1
+            },
+            "name": "Mitochondrial Aconitase (half-reaction B, Isocitrate hydro-lase)",
+            "subsystem": "Mitochondrial Citric Acid Cycle",
+            "upper_bound": 100
+        },
+        {
+            "gene_reaction_rule": "MttA",
+            "id": "MTT",
+            "lower_bound": -100,
+            "metabolites": {
+                "acon_C_c": 1,
+                "acon_C_m": -1,
+                "mal_L_c": -1,
+                "mal_L_m": 1
+            },
+            "name": "Cis-aconitate malate antiport, mitochondrial",
+            "subsystem": "Engineered Itaconate Biosynthesis",
+            "upper_bound": 100
+        },
+        {
+            "gene_reaction_rule": "CAD1",
+            "id": "ITACON",
+            "lower_bound": -100,
+            "metabolites": {
+                "acon_C_c": -1,
+                "co2_c": 1,
+                "h_c": -1,
+                "itacon_c": 1
+            },
+            "name": "Aconitate Decarboxylase",
+            "subsystem": "Engineered Itaconate Biosynthesis",
+            "upper_bound": 100
+        },
+        {
+            "gene_reaction_rule": "MFS",
+            "id": "ITACONtr",
+            "lower_bound": -100,
+            "metabolites": {
+                "itacon_c": -1,
+                "itacon_e": 1
+            },
+            "name": "Itaconate transport",
+            "objective_coefficient": 1.0,
+            "subsystem": "Engineered Itaconate Biosynthesis",
+            "upper_bound": 100
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "SK_icit_m",
+            "lower_bound": -25,
+            "metabolites": {
+                "icit_m": -1,
+                "Biomass_e": 1
+            },
+            "name": "Isocitrate sink",
+            "upper_bound": 1000.0
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "SK_icit_c",
+            "lower_bound": -25,
+            "metabolites": {
+                "icit_c": -1,
+                "icit_e": 1
+            },
+            "name": "Isocitrate sink",
+            "upper_bound": 1000.0
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "SK_cit_c",
+            "lower_bound": -25,
+            "metabolites": {
+                "cit_c": -1,
+                "cit_e": 1
+            },
+            "name": "Citrate sink",
+            "upper_bound": 1000.0
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "SK_cit_m",
+            "lower_bound": -1000.0,
+            "metabolites": {
+                "cit_m": 1,
+                "glc_D_e": -1
+            },
+            "name": "Citrate sink",
+            "upper_bound": 1000.0
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "SK_mal_L_m",
+            "lower_bound": -1000.0,
+            "metabolites": {
+                "mal_L_m": -1,
+                "mal_L_e": 1
+            },
+            "name": "L_Malate sink",
+            "upper_bound": 1000.0
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "SK_mal_L_c",
+            "lower_bound": -1000.0,
+            "metabolites": {
+                "mal_L_c": 1,
+                "mal_L_e": -1
+            },
+            "name": "L_Malate sink",
+            "upper_bound": 1000.0
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "SK_h2o_c",
+            "lower_bound": -1000.0,
+            "metabolites": {
+                "h2o_c": 1,
+                "h2o_e": -1
+            },
+            "name": "H2O source",
+            "upper_bound": 1000.0
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "SK_h2o_m",
+            "lower_bound": -1000.0,
+            "metabolites": {
+                "h2o_m": -1,
+                "h2o_e": 1
+            },
+            "name": "H2O sink",
+            "upper_bound": 1000.0
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "SK_co2_c",
+            "lower_bound": -1000.0,
+            "metabolites": {
+                "co2_c": -1,
+                "co2_e": 1
+            },
+            "name": "CO2 sink",
+            "upper_bound": 1000.0
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "SK_h_c",
+            "lower_bound": -1000.0,
+            "metabolites": {
+                "h_c": 1,
+                "h_e": -1
+            },
+            "name": "H source",
+            "upper_bound": 1000.0
+        }
+    ],
+    "version": "1"
+}
